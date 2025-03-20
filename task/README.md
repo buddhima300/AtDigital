@@ -1,13 +1,17 @@
-# Project Name
+# AtDigital Landing page Design
 
 ## Author
 
-- **Name:** Your Name
-- **Email:** your.email@example.com
+- **Name:** K.G.B.C.LAKMAL
+- **Email:** lkc.buddhima@gmail.com
 
 ## Overview
 
-Provide a brief description of the project, its purpose, and its main features.
+This is actually a assessment task landing page which is designed with Vite+React by utilizing tailwind css to gives much more user experience to user.
+
+## Screenshot
+
+![Landing Page Screenshot](task\screenshots\screenshot.png)
 
 ## Table of Contents
 
@@ -24,15 +28,13 @@ Provide a brief description of the project, its purpose, and its main features.
 ```
 project-root/
 ├── src/
+│   ├── assets/
 │   ├── components/
-│   ├── services/
-│   ├── utils/
-│   └── index.js
-├── public/
-│   ├── index.html
-│   └── styles.css
-├── tests/
-│   └── example.test.js
+│   ├── pages/
+├── .gitignore
+├── App.jsx
+├── main.jsx
+├── index.html
 ├── .gitignore
 ├── package.json
 └── README.md
@@ -42,11 +44,11 @@ project-root/
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/buddhima300/AtDigital.git
    ```
 2. Navigate to the project directory:
    ```sh
-   cd your-repo-name
+   cd task
    ```
 3. Install dependencies:
    ```sh
@@ -57,9 +59,9 @@ project-root/
 
 1. Start the development server:
    ```sh
-   npm start
+   npm run dev
    ```
-2. Open your browser and navigate to `http://localhost:3000`.
+2. Open your browser and navigate to `http://localhost:5173`.
 
 ## Contributing
 
