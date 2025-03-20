@@ -3,7 +3,7 @@ import React from "react";
 
 function Questions() {
   return (
-    <div className="flex flex-col justify-center mx-[20%] my-10 w-auto">
+    <div className="flex flex-col justify-center mx-5 md:mx-[10%] lg:mx-[20%] my-10 w-auto">
       <div className="text-center mb-2">
         <h1 className="text-[#4F46E5] text-2xl font-semibold">
           Frequently asked questions

@@ -3,7 +3,7 @@ import img1 from "../assets/intro2.png";
 
 function Intro2() {
   return (
-    <div className="block sm:flex items-center justify-center md:mx-[20%]">
+    <div className="block sm:flex items-center justify-center lg:mx-[20%]">
       <div className="px-5 text-justify w-full">
         <h1 className="text-2xl text-[#4F46E5] font-semibold">
           Digital Strategy Consulting

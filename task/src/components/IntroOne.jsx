@@ -3,7 +3,7 @@ import img1 from "../assets/intro1.png";
 
 function IntroOne() {
   return (
-    <div className="block sm:flex items-center justify-center md:mx-[20%]">
+    <div className="block sm:flex items-center justify-center lg:mx-[20%]">
       <div className=" sm:w-150 h-auto ">
         <img src={img1} alt="side img" className="w-full h-full " />
       </div>
