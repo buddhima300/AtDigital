@@ -11,7 +11,7 @@ This is actually a assessment task landing page which is designed with Vite+Reac
 
 ## Screenshot
 
-![Landing Page Screenshot](screenshots\screenshot.png)
+![Landing Page Screenshot](task/screenshots/screenshot.png)
 
 ## Table of Contents
 
