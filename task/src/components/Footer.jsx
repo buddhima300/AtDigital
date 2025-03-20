@@ -4,10 +4,10 @@ import logo from "../assets/logo.png";
 function Footer() {
   return (
     <div className="bg-[#4F46E5] p-5">
-      <div className="flex justify-between">
+      <div className="block lg:flex justify-between">
         {/* left side */}
-        <div className="block w-[30%] text-white text-sm">
-          <img src={logo} alt="logo" className="w-[50%]" />
+        <div className="block md:w-[50%] lg:w-[30%] text-white text-sm">
+          <img src={logo} alt="logo" className="w-[45%] md:w-[50%]" />
           <p>
             Your goal is our target. Not anything in between. We use online
             marketing platforms and tools to achieve single objective - your
@@ -15,7 +15,7 @@ function Footer() {
           </p>
         </div>
         {/* right side */}
-        <div className="flex justify-around w-[60%] ml-[20%] text-white">
+        <div className="block mt-10 md:mt-5 lg:mt-0  md:flex justify-around w-[60%] lg:ml-[20%] text-white">
           {/* first column */}
           <div>
             <h3 className="text-xl font-semibold">Our Technologies</h3>
@@ -36,7 +36,7 @@ function Footer() {
           </div>
           {/* second column */}
           <div>
-            <h3 className="text-xl font-semibold">Our services</h3>
+            <h3 className="text-xl font-semibold mt-5 md:mt-0">Our services</h3>
             <ul>
               <li>
                 <a href="">Social media marketing</a>
@@ -53,7 +53,7 @@ function Footer() {
       </div>
       {/* second section of footer */}
       <div className="mt-5 text-center text-white">
-        <hr className="mx-[30%] mb-1" />
+        <hr className="lg:mx-[30%] mb-1" />
         <p>Privacy Policy | Terms and Condition</p>
       </div>
     </div>
