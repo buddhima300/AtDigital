@@ -5,7 +5,9 @@ function Intro2() {
   return (
     <div className="flex items-center justify-center mx-[20%]">
       <div className="text-justify w-full">
-        <h1 className="text-2xl text-[#4F46E5]">Digital Strategy Consulting</h1>
+        <h1 className="text-2xl text-[#4F46E5] font-semibold">
+          Digital Strategy Consulting
+        </h1>
         <p>
           Your digital strategy should complement the overall marketing strategy
           of the company. In online marketing, each component will never work in

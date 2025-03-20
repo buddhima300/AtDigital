@@ -5,12 +5,14 @@ function Questions() {
   return (
     <div className="flex flex-col justify-center mx-[20%] my-10 w-auto">
       <div className="text-center mb-2">
-        <h1 className="text-[#4F46E5] text-2xl">Frequently asked questions</h1>
+        <h1 className="text-[#4F46E5] text-2xl font-semibold">
+          Frequently asked questions
+        </h1>
       </div>
       {/* first question */}
       <div className="bg-[#FAF8FF] p-4 mb-2">
         <div className="flex justify-between">
-          <h2 className="text-[#4F46E5]">
+          <h2 className="text-[#4F46E5] font-semibold">
             Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?
           </h2>
           <Minus color="#4F46E5" />
@@ -23,14 +25,14 @@ function Questions() {
       </div>
       {/* second question */}
       <div className="bg-[#FAF8FF] p-4 mb-2">
-        <div className="flex justify-between">
+        <div className="flex justify-between font-semibold">
           <h2>Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?</h2>
           <Plus />
         </div>
       </div>
       {/* Third question */}
       <div className="bg-[#FAF8FF] p-4">
-        <div className="flex justify-between">
+        <div className="flex justify-between font-semibold">
           <h2>Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?</h2>
           <Plus />
         </div>

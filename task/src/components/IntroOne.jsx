@@ -8,7 +8,9 @@ function IntroOne() {
         <img src={img1} alt="side img" className="w-full h-full " />
       </div>
       <div className="text-justify w-full">
-        <h1 className="text-2xl text-[#4F46E5]">Web & Mobile Development</h1>
+        <h1 className="text-2xl text-[#4F46E5] font-semibold">
+          Web & Mobile Development
+        </h1>
         <p>
           Your web and mobile Apps are pieces of the puzzle to grow your
           business. We use frameworks which tailor content and engagement
