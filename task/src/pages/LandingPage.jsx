@@ -10,7 +10,7 @@ function LandingPage() {
   return (
     <div>
       <Navbar />
-      {/* <HeaderSection /> */}
+      <HeaderSection />
       <IntroOne />
       <Intro2 />
       <Questions />
